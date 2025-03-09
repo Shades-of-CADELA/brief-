@@ -14,7 +14,7 @@ header {
 
 main {
     padding: 20px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 footer {
@@ -24,13 +24,31 @@ footer {
     padding: 10px;
 }
 
-body.dark-theme {
+main.dark-theme {
     background-color: black;
     color: white;
 }
 
 header.dark-theme {
-    background-color: beige;
+    background-color: pink;
     color: black;
 }
 
+footer.dark-theme {
+    background-color: brown;
+    color: white;
+}
+
+.first {
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
